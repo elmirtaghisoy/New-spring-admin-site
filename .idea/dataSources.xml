@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="colorbrain2@localhost" uuid="1d10e1c7-8286-4feb-92fb-757461ecabe5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/colorbrain2?useTimezone=true&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>
