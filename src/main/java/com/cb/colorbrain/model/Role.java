@@ -1,4 +1,4 @@
-package com.cb.colorbrain2.model;
+package com.cb.colorbrain.model;
 
 import org.springframework.security.core.GrantedAuthority;
 

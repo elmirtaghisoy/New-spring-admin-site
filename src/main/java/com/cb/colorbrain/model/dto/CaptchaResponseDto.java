@@ -1,4 +1,4 @@
-package com.cb.colorbrain2.model.dto;
+package com.cb.colorbrain.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
