@@ -1,4 +1,4 @@
-package com.cb.colorbrain2.configuration;
+package com.cb.colorbrain.configuration;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -42,6 +42,7 @@ public class MailSendConfig {
 
         properties.setProperty("mail.transport.protocol", protocol);
         properties.setProperty("mail.debug", debug);
+        properties.put("mail.smtp.ssl.enable", "true");
 
         return mailSender;
     }

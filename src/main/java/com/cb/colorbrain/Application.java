@@ -1,4 +1,4 @@
-package com.cb.colorbrain2;
+package com.cb.colorbrain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

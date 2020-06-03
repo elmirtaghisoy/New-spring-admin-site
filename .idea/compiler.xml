@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="securityStarter" />
+        <module name="ColorBrain" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ColorBrain" options="-parameters" />
       <module name="securityStarter" options="-parameters" />
     </option>
   </component>

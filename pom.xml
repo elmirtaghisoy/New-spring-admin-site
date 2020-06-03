@@ -73,14 +73,25 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
         <!--P5-->
-        <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-core</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.flywaydb</groupId>-->
+<!--            <artifactId>flyway-core</artifactId>-->
+<!--        </dependency>-->
         <!--P6-->
         <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>24.1.1-jre</version>
         </dependency>
     </dependencies>
 

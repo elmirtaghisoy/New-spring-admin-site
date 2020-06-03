@@ -1,11 +1,10 @@
 <#import "parts/common.ftlh" as c>
-<#include "parts/navbar.ftlh">
 <@c.page>
     <div class="container">
-        <h1>ADD USER PAGE</h1>
-        <form class="form-signin col-4 mx-auto" action="/registration" method="post">
-            <h1 class="h3 mb-3 font-weight-normal">Please add user information</h1>
-
+        <h1>Qeydiyyat</h1>
+        <form class="form-signin col-4 mx-auto" action="/regP/registration" method="post">
+            <input type="hidden" name="applicantId" value="${applicantId}">
+            <input type="hidden" name="token" value="${token}">
             <label for="inputEmail" class="sr-only">Username</label>
             <input type="text" class="form-control ${(usernameError??)?string('is-invalid', '')}" name="username"
                    placeholder="Username" value="<#if user??>${user.username}</#if>" required="" autofocus="">
@@ -16,8 +15,8 @@
             </#if>
 
             <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" value="<#if user??>${user.email}</#if>"
-                   class="form-control mt-2 ${(emailError??)?string('is-invalid', '')}"  name="email"
+            <input type="email" required value="<#if user??>${user.email}</#if>"
+                   class="form-control mt-2 ${(emailError??)?string('is-invalid', '')}" name="email"
                    placeholder="Email" autofocus="">
             <#if emailError??>
                 <div class="invalid-feedback">

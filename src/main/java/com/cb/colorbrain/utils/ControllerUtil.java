@@ -1,4 +1,4 @@
-package com.cb.colorbrain2.utils;
+package com.cb.colorbrain.utils;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

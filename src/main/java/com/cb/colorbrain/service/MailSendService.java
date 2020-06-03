@@ -1,4 +1,4 @@
-package com.cb.colorbrain2.service;
+package com.cb.colorbrain.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -7,7 +7,8 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MailSendService {
+public class MailSendService{
+
     @Autowired
     private JavaMailSender mailSender;
 
